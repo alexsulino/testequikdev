@@ -10,6 +10,15 @@ Rodar o projeto
 Instalar o módulo para manipular rotas
 ### `npm install --save react-router-dom`
 
+React Strap
+https://github.com/reactstrap/reactstrap
+https://reactstrap.github.io/?path=/story/home-installation--page
+### `npm install -g create-react-app`
+
+React Icons
+https://react-icons.github.io/react-icons/
+### `npm install react-icons --save`
+
 Teste
 ### `npm test`
 
@@ -19,5 +28,5 @@ build
 ### `npm run eject`
 ### `npm run build` fails to minify
 
-Instalar o módulo React Strap
-### https://github.com/reactstrap/reactstrap
+
+
