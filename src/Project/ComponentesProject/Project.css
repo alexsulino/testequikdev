@@ -1,0 +1,150 @@
+
+li.nav-itemxxxxxxxxxxxxxxxtestexxxxxxxx {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.Project input[type="text"],select  {
+    border: solid 1px #ddd;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px 0px;
+    font-size: 18px;
+}
+.Project button.btn {
+    border-radius: 5px;
+    background: #444;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    margin: 10px 0px;
+}
+
+.Project label {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.newProject {
+    margin: 10px auto;
+    max-width: 450px;
+    padding: 10px;
+    background: #F1F1F2;
+    border-radius: 5px;
+}
+.newProject h1 {
+    margin: 5px;
+    font-size: 24px;
+}
+.newProject p {
+    margin: 5px;
+    font-size: 16px;
+}
+
+
+.cardBox {
+    width: 24.1%;
+    min-height: 220px;
+    background: #eee;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+    display: inline-table;
+    float: left;
+}
+
+.cardBox h1 {
+    font-size: 19px;
+}
+
+.ConteinerProjectsCardBox {
+display: inline-block;
+    clear: both;
+    width: 100%;
+}
+
+.message {
+    background: #9ef7b5;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    color: #048726;
+    margin: 10px 0px;
+}
+
+
+/* Fim Serviços (sub itens)*/
+
+input#name {
+    width: 100%;
+}
+
+input[type="number" i] {
+    width: 200px;
+}
+
+textarea#description {
+    width: 100%;
+    margin: 10px 0px;
+    min-height: 90px;
+}
+
+form.ServiceForm {
+    padding: 10px;
+    background: #fff;
+    border-radius: 10px;
+    margin: 20px 0px 30px 0px;
+}
+
+
+
+
+
+.boxSubItens {
+    padding: 10px;
+    background: #fff;
+    margin: 10px 0px 40px 0px;
+    border-radius: 10px;
+}
+.boxSubItens .sub_itens {
+    width: 100%;
+    background: #f3f4f6;
+    margin: 2px 0px;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-radius: 5px;
+}
+.boxSubItens .sub_itens:hover {
+    background: #eee;
+}
+
+.boxSubItens .sub_itens .id {
+    font-size: 12px;
+    display: none;
+}
+
+.boxSubItens .sub_itens h1.title {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 1px;
+}
+
+.boxSubItens .sub_itens .description {
+    font-size: 15px;
+}
+
+.boxSubItens .sub_itens .coluna1 {
+    width: 92%;
+    /* background: #fff; */
+    margin: 1px;
+}
+
+.boxSubItens .sub_itens .coluna2 {
+    background: #fff;
+}
+
+/* Fim Serviços (sub itens)*/

@@ -1,4 +1,5 @@
 import React from "react";
+import { ListGroup, ListGroupItem } from 'reactstrap';
 
 function ListaMap (){
 
@@ -12,7 +13,7 @@ function ListaMap (){
     
     const listaCarros=carros.map(
         (c,i)=>
-        <li key={i}>{i} - {c.categoria} - {c.preco} - {c.modelo}</li>
+        <ListGroupItem key={i}>{i} - {c.categoria} - {c.preco} - {c.modelo}</ListGroupItem>
     )
 
     return(
@@ -24,8 +25,10 @@ function ListaMap (){
                 
                 <br/>
 
-                <div  style={{margin: "5px auto", maxWidth:"300px", borderRadius: "5px", backgroundColor:"#eee", padding:"20px", textAlign:"left"}}>
-                    <ul> {listaCarros}</ul>
+                <div  style={{margin: "5px auto", maxWidth:"600px", borderRadius: "5px", backgroundColor:"#eee", padding:"20px", textAlign:"left"}}>               
+                    <ListGroup  flush >
+                    {listaCarros}
+                    </ListGroup>
                 </div>
 
                 <br/>
