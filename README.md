@@ -29,8 +29,8 @@ https://www.npmjs.com/package/uuidv4
 ## ------------------- API  -----------------------
 
 ### Rodas API Backend  `db.json`
-Executar comando 
-**npm run backend**
+Executar comando
+- **npm run backend**
 
 ## ------------------------------------------------
 
