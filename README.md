@@ -36,8 +36,9 @@ build
 ### `npm run eject`
 ### `npm run build` fails to minify
 
-### Git - dia dia ----------------
-git status -u
-git commit -m ""
-git push -u origin main
+###  ---------------- Git - dia dia ----------------
+- git status -u
+- git commit -m ""
+- git push -u origin main
+
 ### ---------------------------------------------------
