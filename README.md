@@ -1,5 +1,5 @@
 
-## Alex Sulino
+# Alex Sulino
 
 Instalar as dependências
 ### `npm install`
@@ -43,4 +43,4 @@ build
 - Commit -    git commit -m "Comentario"
 - Empurrar -  git push -u origin main
 
-### ---------------------------------------------------
+## ---------------------------------------------------
