@@ -27,18 +27,20 @@ https://www.npmjs.com/package/uuidv4
 
 
 ## ------------------- API  -----------------------
-
+```
 ### Rodas API Backend  `db.json`
 Executar comando
 - **npm run backend**
 
+```
+
 ## ------------------------------------------------
 
-Teste
+**Teste**
 ### `npm test`
 
 
-build
+**build**
 ### `npm run build`
 
 ### `npm run eject`
@@ -51,6 +53,6 @@ build
 - Adicionar - git add .
 - Commit -    git commit -m "Comentario"
 - Empurrar -  git push -u origin main
-```
 
+```
 ## ---------------------------------------------------
