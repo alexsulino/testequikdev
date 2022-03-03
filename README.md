@@ -22,6 +22,14 @@ https://react-icons.github.io/react-icons/
 Teste
 ### `npm test`
 
+Gerar id unico
+https://www.npmjs.com/package/uuidv4
+### npm install uuidv4
+
+
+Rodas API Backend db.json
+### npm run backend
+
 build
 ### `npm run build`
 
