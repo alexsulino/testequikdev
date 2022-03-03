@@ -28,9 +28,9 @@ https://www.npmjs.com/package/uuidv4
 
 ## ------------------- API  -----------------------
 
-Rodas API Backend `db.json`
+### Rodas API Backend  `db.json`
 Executar comando 
-### npm run backend
+**npm run backend**
 
 ## ------------------------------------------------
 
@@ -45,10 +45,12 @@ build
 ### `npm run build` fails to minify
 
 ##  ---------------- Git - dia dia ----------------
+```
 - Iniciar -   git init
 - Listar -    git status -u
 - Adicionar - git add .
 - Commit -    git commit -m "Comentario"
 - Empurrar -  git push -u origin main
+```
 
 ## ---------------------------------------------------
