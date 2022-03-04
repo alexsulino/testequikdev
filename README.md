@@ -61,8 +61,9 @@ npm run backend
 ##  ---------------- SASS ----------------
 ```
 **Guide do tema criado em SASS**
--  O SASS foi criado visando facilitar a criação de códigos CSS, por isso, 
-nos traz várias vantagens que o CSS não possui.
+-  O SASS foi criado visando facilitar a criação de códigos CSS, por isso, nos traz várias 
+vantagens que o CSS não possui.
+
 - utilizar a pasta src/style/Sass/ 
 - https://www.youtube.com/watch?v=KnsNYOPHyTc
 ```
