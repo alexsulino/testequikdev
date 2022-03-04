@@ -1,5 +1,43 @@
+.header {
+  color: #222;
+}
+
 body {
-  border: none;
-  background-color: black;
+  background-color: #f3f4f6 !important;
+}
+
+.title {
+  font-family: "C6 Sans Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+h1.title {
+  font-size: 1.2 0.5rem;
+  font-weight: 300;
+  line-height: 1.25;
+}
+
+h2.title {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+/* Container */
+.defaultContainer {
+  padding: 20px;
+  background: #fff;
+  margin: 10px 0px 40px 0px;
+  border-radius: 10px;
+}
+
+.alinhamentoFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 /*# sourceMappingURL=Guide.css.map */

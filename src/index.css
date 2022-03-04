@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #f3f4f6 !important;
+  
 }
 
 code {
@@ -24,27 +24,6 @@ code {
   box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)
 }
 
-.title {
-  font-family: "C6 Sans Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-}
 
-h1.title {
-  font-size: 1.2.5rem;
-  font-weight: 300;
-  line-height: 1.25;
-}
-h2.title {
-  font-size: 22px;
-  font-weight: 500;
-  line-height:normal;
-}
-
-/* Container */
-.defaultContainer {
-  padding: 20px;
-  background: #fff;
-  margin: 10px 0px 40px 0px;
-  border-radius: 10px;
-}
 
 /* End Container */

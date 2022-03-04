@@ -1,9 +1,5 @@
 
-li.nav-itemxxxxxxxxxxxxxxxtestexxxxxxxx {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
+
 .Project input[type="text"],select  {
     border: solid 1px #ddd;
     border-radius: 5px;
