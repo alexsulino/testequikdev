@@ -55,6 +55,20 @@ npm run backend
 - Empurrar -  git push -u origin main
 
 ```
+### Git Error
+```
+
+Tutorial erros:
+https://www.youtube.com/watch?v=EfrCCrIXe5c&ab_channel=%C2%BFC%C3%B3mosehace%3F
+error:
+Git error Fatal: remote origin already exists
+
+git remote ---verbose
+git remote set-url origin https://github.com/alexsulino/testequikdev.git
+git push -u origin master
+
+git pull --rebase origin main
+```
 ## ---------------------------------------------------
 
 
