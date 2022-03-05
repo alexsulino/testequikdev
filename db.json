@@ -37,49 +37,52 @@
         "id": "1",
         "name": "Infra"
       },
-      "cost": 90,
+      "cost": 203,
       "services": [
         {
           "name": "Alex Fernando Sulino Pereira",
           "cost": "90",
           "description": "hfguh",
           "id": "7d050bf9-39b8-48e9-8063-8a69e956c6be"
+        },
+        {
+          "name": "Coloque sua Marca (Pimentas Personalizadas)",
+          "cost": "12",
+          "description": "Descrição do Serviço",
+          "id": "6bfe3d16-a0e7-430b-9e50-e7709716ccb4"
+        },
+        {
+          "name": "Placas e Adesivos personalizados",
+          "cost": "56",
+          "description": "Descrição do Serviço, Descrição do Serviço ",
+          "id": "89c2adbf-d846-4c72-8778-3c5cf542712e"
+        },
+        {
+          "name": "Alex Fernando Sulino Pereira",
+          "cost": "45",
+          "description": "45454",
+          "id": "769050e1-3366-46b3-9b42-5391a645a8f2"
         }
       ],
       "id": 2
     },
     {
-      "name": "Marca",
-      "budget": "3499",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 3
-    },
-    {
       "name": "Sampa Print",
       "budget": "34999",
       "category": {
         "id": "3",
         "name": "Design"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 12,
+      "services": [
+        {
+          "name": "Alex Fernando Sulino Pereira",
+          "cost": "12",
+          "description": " bf dfgddf",
+          "id": "01980a8f-0cf8-4ba9-bd7c-76e3cbfb6360"
+        }
+      ],
       "id": 4
-    },
-    {
-      "name": "Sampa Print",
-      "budget": "34999",
-      "category": {
-        "id": "3",
-        "name": "Design"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 5
     },
     {
       "name": "Sampa Print",

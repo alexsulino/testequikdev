@@ -3,6 +3,9 @@ import Message from "./ComponentesProject/Message";
 import Loading from "./ComponentesProject/Loading";
 import ProjectCard from "./ComponentesProject/ProjectCard";
 
+//url da API
+import ClientConfig from './ClientConfig';
+
 import {useState, useEffect} from "react";
 
 //import './message.module.css';
@@ -11,6 +14,9 @@ function Projects(){
     const [projects, setProjects] = useState([])
     const [removeLoading, setRemoveLoading] = useState (false)
     const [projectMessage, setProjectMessage] = useState('')
+
+    //url da API variavel 
+    const ApiUrl = ClientConfig.siteUrl;
 
     const location = useLocation()
     let message = ''
@@ -21,7 +27,8 @@ function Projects(){
         
         useEffect(() => {
             setTimeout(() => {
-                fetch('http://localhost:5000/projects', {
+                //fetch('http://localhost:5000/projects', {
+                fetch((ApiUrl)+'projects', {
                     method: "GET",
                     headers:{
                         'Content-type': 'application/json',
@@ -58,9 +65,11 @@ function Projects(){
        
 
     return (
+        <>
         <div className="container Project">
             <div className="container-fluid">
                 <h1> Meus Projetos </h1>
+                <p className="api_url"> {ApiUrl} </p>
                 {message && <Message type='success' msg={message} /> }
                 {projectMessage && <Message type='success' msg={projectMessage} /> }
 
@@ -81,6 +90,7 @@ function Projects(){
 
             </div>
         </div>
+        </>
     )
 }
 export default Projects;

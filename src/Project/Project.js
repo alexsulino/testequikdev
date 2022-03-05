@@ -5,7 +5,6 @@ import {useState, useEffect} from "react";
 
 //import '../styles/w3.css';
 
-import { FaChevronRight, BiEdit, GrChapterAdd, CgSmileSad} from 'react-icons/fa';
 
 import { parse, v4 as uuidv4 } from 'uuid';
 
@@ -151,6 +150,7 @@ function Project(){
     }
 
     return (
+        <>
         <div className="container Project">
             <div className="container-fluid">
             
@@ -166,7 +166,7 @@ function Project(){
                     {!showProjectForm ? (
                         //if showProjectForm
                         <div className={project.id} > 
-                            <p>{project.name ? <h2 className="title"> {project.name} </h2> : <Loading/>}</p>
+                            {project.name ? <h2 className="title"> {project.name} </h2> : <Loading/>}
                             <p><span>Categoria: </span> {project.category?.name}</p>
                             <p><span>Total Orçamento: </span> R$: {project.budget}</p>
                             <p><span>Total Utilizado: </span> R$: {project.cost}</p>                           
@@ -175,7 +175,7 @@ function Project(){
                     ) : (
                        // else showProjectForm
                         <div className="defaultContainer">
-                            <p> <FaChevronRight /> Detalhes do Projeto</p>
+                            <p>  Detalhes do Projeto</p>
 
                             <ProjectForm 
                             handleSubmit={editPost} 
@@ -198,7 +198,7 @@ function Project(){
                         projectData={project}
                         />}
 
-                        <h2 className="title"> <FaChevronRight /> Serviço</h2>
+                        <h2 className="title">  Serviço</h2>
                         <div className="boxSubItens">
                             {services.length > 0 &&
                                 services.map((service) => (
@@ -224,6 +224,7 @@ function Project(){
 
             </div>
         </div>
+        </>
     )
 }
 export default Project;
