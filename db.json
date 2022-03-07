@@ -127,6 +127,24 @@
       "cost": 0,
       "services": [],
       "id": 9
+    },
+    {
+      "name": "Alex Fernando Sulino Pereira",
+      "budget": "90",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 23,
+      "services": [
+        {
+          "name": "Alex Fernando Sulino Pereira",
+          "cost": "23",
+          "description": "23 r erter",
+          "id": "e56f4d9e-ddef-4deb-856c-2100d46fc1b7"
+        }
+      ],
+      "id": 10
     }
   ],
   "categories": [
