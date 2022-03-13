@@ -83,4 +83,11 @@ vantagens que o CSS não possui.
 ```
 ## ---------------------------------------------------
 
-teste
+
+##  ---------------- Books ----------------
+```
+Tutorial: https://www.cloudways.com/blog/use-react-with-wordpress-to-create-headless-cms/
+
+npm i axios
+
+```

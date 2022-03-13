@@ -35,6 +35,15 @@ class Header extends React.Component {
                 <NavLink href="/login">Login</NavLink>
               </NavItem>
 
+
+              <NavItem>
+                <NavLink href="/Posts/Posts">Posts</NavLink>
+              </NavItem>
+
+              <NavItem>
+                <NavLink href="/Webmotors">Webmotors</NavLink>
+              </NavItem>
+
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
                 Projetos

@@ -66,6 +66,7 @@ function Projects(){
 
     return (
         <>
+        <div className="component_name">Project/Projects.js</div>
         <div className="container Project">
             <div className="container-fluid">
                 <h1> Meus Projetos </h1>

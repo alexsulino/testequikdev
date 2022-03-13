@@ -151,6 +151,7 @@ function Project(){
 
     return (
         <>
+        <div className="component_name">Project/Project.js</div>
         <div className="container Project">
             <div className="container-fluid">
             

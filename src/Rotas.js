@@ -15,6 +15,10 @@ import NewProject from './Project/NewProject';
 import Projects from './Project/Projects';
 import Project from './Project/Project';
 
+import Posts from './Posts/Posts';
+
+import Webmotors from './Webmotors';
+
 function Rotas (){
         return(
         <>
@@ -33,6 +37,10 @@ function Rotas (){
             <Route path="/project/newProject" element={<NewProject/>} />
             <Route path="/project/projects" element={<Projects/>} />
             <Route path="/project/project/:id" element={<Project/>} />
+
+            <Route path="/posts/posts" element={<Posts/>} />
+
+            <Route path="/webmotors/" element={<Webmotors/>} />
 
           </Routes>
          

@@ -1,0 +1,144 @@
+.p {
+    font-size: 13px;
+    margin-top: 8px;
+    color: #686976;
+}
+
+label {
+    font-size: 14px;
+    margin-top: 8px;
+    color: #686976;
+}
+li {
+    list-style: none;
+}
+a {
+    color: #0d6efd;
+    text-decoration: none !important;
+}
+
+.container-web {
+    background-color: #ecedf2;
+    padding: 10px;
+    margin: 20px;
+}
+.VehicleDetails__container {
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 10px;
+}
+
+/*********************************** The Header ************************************/
+.headerWeb {
+    display: inline-block;
+}
+/*********************************** End Header ************************************/
+
+.ButtonSubmit {
+    background-color: #f51344;
+    color: #fff;
+    padding: 5px;
+    min-width: 200px;
+    border: none;
+    font-size: 18px;
+    border-radius: 2px;
+    width: 220px;
+}
+/*********************************** The Input Form ************************************/
+select {
+    min-width: 200px;
+}
+input, select, .checkmark {
+    border: solid 1px #ccc;
+    height: 35px;
+    font-size: 15px !important;
+    border-radius: 2px;
+}
+/*********************************** The Checkbox ************************************/
+.LabelCheckbox {
+    position: relative;
+    padding-left: 35px;
+    margin: 0px 25px 12px 0px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .LabelCheckbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 25px;
+      width: 25px;
+      background-color: #fff;
+      
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .LabelCheckbox:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .LabelCheckbox input:checked ~ .checkmark {
+    background-color: #fff;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .LabelCheckbox input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .LabelCheckbox .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid #f51344;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+/*********************************** End Checkbox ************************************/
+
+
+/*********************************** GRID ************************************/
+.grid {
+    background-color: #eee;
+    margin: 2px;
+    display: grid;
+}
+.one_columns {
+    grid-template-columns:100%;
+  }
+.two_columns {
+    grid-template-columns: 50% 50%;
+ }
+ .thirteen_columns {
+    grid-template-columns: 33% 33% 33% ;
+ }
+ .four_columns {
+    grid-template-columns: 24% 24% 24% 24% ;
+ }

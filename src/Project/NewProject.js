@@ -36,17 +36,20 @@ function NewProject () {
 
 
     return(
-    <div className="container Project">
-        <div className="container-fluid">
-      
-            <div className="newProject">
-                <h1>Criar Projeto</h1>
-                <p>Crie seu projeto para depois adicionar os serviços</p>
-                <ProjectForm handleSubmit={createPost} btnText="Criar Projeto"/>
-            </div>
+        <>
+        <div className="component_name">Project/NewProject.js</div>
+        <div className="container Project">
+            <div className="container-fluid">
+        
+                <div className="newProject">
+                    <h1>Criar Projeto</h1>
+                    <p>Crie seu projeto para depois adicionar os serviços</p>
+                    <ProjectForm handleSubmit={createPost} btnText="Criar Projeto"/>
+                </div>
 
-        </div>
-    </div> 
+            </div>
+        </div> 
+    </>
     )
 }
 export default NewProject;
